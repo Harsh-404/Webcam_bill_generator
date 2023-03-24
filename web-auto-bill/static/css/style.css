@@ -1,0 +1,146 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.Section_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 35s infinite ease-in-out;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+
+}
+.contents{
+    position: absolute;
+    top: relative;
+    left: 50%;
+    padding-top: 50px;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+
+}
+.content h1{
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.content h1 span{
+    color: #fff;
+}
+.content a{
+    background: #85c1ee;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.content a:hover{
+    background: #034e88;
+    color: #fff;
+}
+.content2{
+    position: absolute;
+    top: 0%;
+    left:0%
+}
+.content3{
+    position: absolute;
+    top: 5%;
+    left:0%
+}
+.c1{
+    position: absolute;
+    top: 40%;
+    left:46%
+}
+.c2{
+    position: absolute;
+    top: 40%;
+    left: 25%
+}
+.c3{
+    position: absolute;
+    top: 40%;
+    left:63%
+}
+.c{
+    position: absolute;
+    top: 7%;
+    left:35%
+}
+.b1{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+table, th, td{
+    width: 800px;
+    margin: auto;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(image1.jpg);
+    }
+    10%
+    {
+        background-image: url(image2.jpg);
+    }
+    20%
+    {
+        background-image: url(image6.jpg);
+    }
+    30%
+    {
+        background-image: url(image4.jpg);
+    }
+    40%
+    {
+        background-image: url(image5.jpg);
+    }
+    50%
+    {
+        background-image: url(image3.jpg);
+    }
+    60%
+    {
+        background-image: url(image7.jpg);
+    }
+    70%
+    {
+        background-image: url(image8.jpg);
+    }
+    80%
+    {
+        background-image: url(image9.jpg);
+    }
+    90%
+    {
+        background-image: url(image10.jpg);
+    }
+    100%
+    {
+        background-image: url(image11.jpg);
+    }
+}
